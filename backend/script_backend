@@ -1,0 +1,4 @@
+export GOOGLE_APPLICATION_CREDENTIALS=./teleworks-dev-firebase-adminsdk-k2686-ee88fa6452.json
+
+
+node index.js

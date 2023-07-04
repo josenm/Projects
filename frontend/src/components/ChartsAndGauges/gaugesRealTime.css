@@ -1,0 +1,65 @@
+@media (min-width: 701px) {
+  .GaugeCard {
+    min-height: 200px;
+    max-height: 210px;
+  }
+  .GaugeCard ion-card-subtitle {
+    text-align: center;
+    padding: 8px 0 0 0;
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 700px) {
+  .GaugeCard {
+    /* min-height: 30vw; */
+    max-height: max-content;
+
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+  }
+  .GaugeCard ion-card-subtitle {
+    text-align: center;
+    padding: 8px 0 0 0;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 450px) {
+  .GaugeCard {
+    min-height: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+  }
+
+  .GaugeCard ion-card-title {
+    font-size: 4vw;
+  }
+}
+
+.GaugeCard ion-item {
+  margin: auto;
+  margin-bottom: 80px;
+  max-width: min-content;
+  max-height: min-content;
+  bottom: 8px;
+}
+.GaugeCard ion-label {
+  text-align: right;
+}
+.GaugeCard ion-select {
+  min-width: fit-content;
+}
+.GaugeCard {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+@media (min-width: 450px) {
+  .GaugeCard ion-label {
+    font-size: 10px;
+  }
+}

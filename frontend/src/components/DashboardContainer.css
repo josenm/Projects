@@ -1,0 +1,60 @@
+.DashboardContainer div {
+  padding-top: 100px;
+  visibility: visible;
+  min-height: fit-content;
+}
+
+@media (min-width: 701px) {
+  .GaugeComponent {
+    min-height: 240px;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .ChartComparativo {
+    height: 84vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .GaugeComponent {
+    min-height: 58vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .GaugeComponent {
+    min-height: 35vh;
+  }
+  .ChartComparativo {
+    height: 78vh;
+  }
+}
+@media (max-width: 400px) {
+  .GaugeComponent {
+    min-height: 40vh;
+  }
+  .ChartComparativo {
+    height: 94vh;
+  }
+}
+.BillingCycle {
+  margin-top: 20px;
+}
+
+.ChartSemanal {
+  height: 74vh;
+}
+
+.ChartComparativo ion-content {
+  --overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.GaugeComponent ion-content {
+  --overflow: hidden;
+}
+
+.ChartSemanal ion-content {
+  --overflow: hidden;
+}

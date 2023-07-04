@@ -1,0 +1,75 @@
+.tableHeader {
+  text-align: center;
+  background-color: #e3eeff;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  font-size: large;
+  font-weight: bold;
+}
+#userRow {
+  overflow: hidden;
+  display: flex;
+}
+.button-text {
+  border-radius: 5px;
+  border: 1px solid #edebeb;
+  padding: 8px 8px 8px 8px;
+}
+
+.logo {
+  width: 20%;
+  background-size: cover;
+}
+
+.button-text-app {
+  display: none;
+}
+
+.rows {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.editBtn {
+  background-color: #65c97a;
+}
+
+.deleteBtn {
+  background-color: #d75946;
+}
+
+.search-bar {
+  width: 40%;
+  margin-left: 60%;
+}
+
+@media (max-width: 450px) {
+  .button-text {
+    display: none;
+  }
+
+  .button-text-app {
+    display: inline;
+    font-size: 30px;
+    margin-right: 5px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .signout {
+    display: none;
+  }
+
+  .logo {
+    width: 40%;
+    background-size: cover;
+  }
+}
+
+.load-spinner {
+  margin: 0 auto;
+  align-self: center;
+}

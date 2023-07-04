@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "T Energy",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "linuxAndroidStudioPath": "/home/alejandro/Downloads/android-studio/bin/studio.sh",
+  "cordova": {}
+}

@@ -1,0 +1,10 @@
+.DashboardPage ion-title {
+  color: #55b8b0;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.DashboardPage ion-select {
+  color: #657c6a;
+  min-width: fit-content;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "T Energy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

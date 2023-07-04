@@ -1,0 +1,113 @@
+@media (min-width: 701px) {
+  .TablaInstantanea {
+    margin: auto;
+    min-width: 70vw;
+  }
+  .TablaInstantanea .data .TitleFila {
+    border: #a2a2a2 solid 1px;
+    background-color: #b1b613;
+    text-shadow: 1.5px 1px #000000;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+  }
+  .TablaInstantanea .rowTitles {
+    font-size: larger;
+    font-weight: bold;
+    color: #138ba5;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .TablaInstantanea {
+    margin: auto;
+    min-width: 80vw;
+  }
+  .TablaInstantanea .data .TitleFila {
+    border: #a2a2a2 solid 1px;
+    background-color: #b1b613;
+    text-shadow: 1.5px 1px #000000;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+  }
+  .TablaInstantanea .rowTitles {
+    font-size: larger;
+    font-weight: bold;
+    color: #138ba5;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .TablaInstantanea {
+    margin: auto;
+    min-width: 90vw;
+  }
+
+  .TablaInstantanea .rowTitles {
+    font-size: small;
+    font-weight: bold;
+    color: #138ba5;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .TablaInstantanea .data .TitleFila {
+    border: #a2a2a2 solid 1px;
+    background-color: #b1b613;
+    text-shadow: 1.5px 1px #000000;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+  }
+  .TablaInstantanea .data ion-col h2 {
+    font-size: medium;
+  }
+}
+.TablaInstantanea ion-grid .data ion-col {
+  border: #496380 solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #138ba5;
+  font-family: monospace;
+  color: white;
+}
+
+.TablaInstantanea ion-grid ion-col h2 {
+  text-decoration: underline;
+  text-decoration-color: #dde0e0;
+  color: #eaecec;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.TablaInstantanea ion-grid ion-col h3 {
+  text-shadow: 1.5px 1px #000000;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.TablaInstantanea .TitleFilaTotal {
+  border-top: #1913b6 solid 1px;
+  border-left: #1913b6 solid 1px;
+  border-right: #1913b6 solid 1px;
+  border-bottom: #496380 solid 1px;
+
+  background-color: #1913b6;
+  text-shadow: 1.5px 1px #000000;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.TablaInstantanea .subTitleData ion-col {
+  border-right: #496380 solid 1px;
+  border-left: #496380 solid 1px;
+
+  color: white;
+  font-size: medium;
+  text-align: center;
+  background-color: #1913b6;
+}

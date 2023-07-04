@@ -1,0 +1,24 @@
+@media (min-width: 701px) {
+  .BillingCycleCard {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .BillingCycleCard {
+    width: 90vw;
+    margin: auto;
+  }
+}
+.BillingCycleCard ion-card-title {
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.BillingCycleCard ion-card-subtitle {
+  margin-bottom: 5%;
+  font-size: 30px;
+  text-align: center;
+}
